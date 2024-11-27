@@ -1,0 +1,49 @@
+.panel-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 80px); /* Altura completa menos el Header y Footer */
+  }
+  
+  .panel-title {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .panel-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  .panel-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .panel-back-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .panel-back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-button {
+    text-decoration: none;
+  }
+  
